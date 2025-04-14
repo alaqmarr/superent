@@ -103,7 +103,7 @@ const SingleBlogPage = async ({ params }: { params: Promise<{ id: string }> }) =
                 </ul>
               </div>
 
-              <RelatedPost />
+              <RelatedPost categoryId={BlogData.category.id} />
             </div>
 
             <div className="lg:w-2/3">

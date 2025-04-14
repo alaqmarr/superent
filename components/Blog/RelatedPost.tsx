@@ -2,9 +2,9 @@ import React from "react";
 import Image from "next/image";
 import Link from "next/link";
 
-const RelatedPost = async () => {
+const RelatedPost = async (categoryId:any) => {
   const res = await fetch(
-    "https://mystore.alaqmar.dev/api/super-enterprises/products",
+    `https://mystore.alaqmar.dev/api/super-enterprises/products?categoryId=${categoryId}`,
     {
       method: "GET",
       cache: "no-store",
@@ -32,7 +32,7 @@ const RelatedPost = async () => {
                 )}
               </div>
               <h5 className="text-md font-medium text-black transition-all duration-300 hover:text-primary dark:text-white dark:hover:text-primary">
-                <Link href={`/blog/blog-details`}>
+                <Link href={`/products/product-details/${post.id}`}>
                   {" "}
                   {post.name.slice(0, 40)}...
                 </Link>
