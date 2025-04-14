@@ -3,7 +3,7 @@ import SharePost from "@/components/Blog/SharePost";
 import { Metadata } from "next";
 import Image from "next/image";
 
-export const generateMetadata = async ({ params }: { params: { id: string } }): Promise<Metadata> => {
+export const generateMetadata = async ({ params }: { params: Promise<{id:string}> }): Promise<Metadata> => {
   const { id } = await params;
   const res = await fetch(`https://mystore.alaqmar.dev/api/super-enterprises/products/${id}`, {
     method: "GET",
