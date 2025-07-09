@@ -29,7 +29,7 @@ export default function Home() {
       <About />
       {/* <FeaturesTab /> */}
       <Blog />
-      <FunFact />
+      {/* <FunFact /> */}
       {/* <Integration /> */}
       <CTA />
       {/* <FAQ /> */}
