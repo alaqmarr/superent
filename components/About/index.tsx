@@ -98,7 +98,12 @@ With a focus on dependable supply and timely service, we proudly stand by our ta
                   <h3 className="mb-0.5 text-metatitle2 text-black dark:text-white">
                     Contact
                   </h3>
-                  <p>09740242725</p>
+                  <p>
+                  
+                    <a href="tel:8886320552">8886320552</a>
+                    <br/>
+                    <a href="tel:9394866330">9394866330</a>
+                </p>
                 </div>
               </div>
             </motion.div>

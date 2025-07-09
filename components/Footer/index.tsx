@@ -67,21 +67,19 @@ const Footer = () => {
                 </p>
                 <a
                   href="tel:
-9740242725"
+"
                   className="text-itemtitle font-medium text-black dark:text-white"
                 >
                   
-09740242725
+
                 </a>
 <br/>
-                <a
-                  href="tel:
-8886320552"
-                  className="text-itemtitle font-medium text-black dark:text-white"
-                >
+                <p>
                   
-8886320552
-                </a>
+                    <a href="tel:8886320552">8886320552</a>
+                    <br/>
+                    <a href="tel:9394866330">9394866330</a>
+                </p>
               </motion.div>
 
             </div>
