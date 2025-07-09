@@ -73,6 +73,15 @@ const Footer = () => {
                   
 09740242725
                 </a>
+<br/>
+                <a
+                  href="tel:
+8886320552"
+                  className="text-itemtitle font-medium text-black dark:text-white"
+                >
+                  
+8886320552
+                </a>
               </motion.div>
 
             </div>
