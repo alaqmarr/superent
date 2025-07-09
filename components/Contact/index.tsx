@@ -189,7 +189,7 @@ const Contact = () => {
                   Email Address
                 </h3>
                 <p>
-                  <a href="#">superenterprises@gmail.com</a>
+                  <a href="#">atcindia53@gmail.com</a>
                 </p>
               </div>
               <div>
@@ -197,8 +197,10 @@ const Contact = () => {
                   Phone Number
                 </h4>
                 <p>
-                  <a href="#">
-                    9740242725</a>
+                  
+                    <a href="tel:8886320552">8886320552</a>
+                    <br/>
+                    <a href="tel:9394866330">9394866330</a>
                 </p>
               </div>
             </motion.div>

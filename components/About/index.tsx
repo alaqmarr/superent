@@ -69,7 +69,10 @@ const About = () => {
                 </span>
               </h2>
               <p>
-              Super Enterprises in Secunderabad City, Secunderabad, Hyderabad is known to satisfactorily cater to the demands of its customer base. The business came into existence in 1989 and has, since then, been a known name in its field. It stands located at Door No 4-4-33, Hill Street, Opposite Lane to Mahakali Temple, Mahakali Street, Ranigunj, Secunderabad City-500003.
+              Super Enterprises is a trusted wholesaler & supplier of material handling equipment, offering a wide range of products including trolleys, trolley wheels, pallet trucks, castors, and stackers.
+<br/>
+<br/>
+With a focus on dependable supply and timely service, we proudly stand by our tagline—“Wheels that keep you rolling.” We’re committed to meeting the practical demands of industries with reliable, ready-to-use equipment that simplifies everyday operations.
               </p>
 
               <div className="mt-7.5 flex items-center gap-5">
